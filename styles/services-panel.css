@@ -21,6 +21,8 @@
     background-image: url("../images/service-card-bg.png");
     margin: 0 auto;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .splide {
     max-width: 1012px;
@@ -76,37 +78,24 @@
 }
 .service-card-text {
     position: absolute;
-    left: 0.33%;
-    right: 0%;
     top: 39.57%;
-    bottom: 34.78%;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-
-    /* Light-Blue */
-
     color: #3E497A;
+    max-width: 250px;
 }
 .service-card-cost {
     position: absolute;
-    left: 38.87%;
-    right: 39.2%;
-    top: 82.17%;
     bottom: 5.22%;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-
-    /* Clear White */
-
     color: #FFFFFF;
 }

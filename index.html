@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <section class="top-panel" id="top-panel">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" data-aos="fade-down">
             <div class="container-fluid">
                 <a class="logo-container d-flex" href="#top-panel">
                     <img src="images/Box.png" class="logo-image" alt="">
@@ -48,7 +49,7 @@
             </div>
         </nav>
         <div class="top-panel-right-bg"></div>
-        <div class="d-flex top-panel-content">
+        <div class="d-flex top-panel-content" data-aos="fade-right">
             <div class="col">
                 <h1>Быстрые и безопасные грузоперевозки</h1>
                 <h2>Мы предоставляем услуги грузового такси, помогаем с переездами и решаем задачи транспортировки крупных грузов по Кировскому району Калужской области</h2>
@@ -61,14 +62,14 @@
                 </div>
             </div>
             <div class="col text-end gazel-container">
-                <img src="images/Gazel.png" class="gazel" alt="">
-                <div class="dialogue-wrapper-left">
+                <img src="images/Gazel.png" class="gazel" alt="" data-aos="zoom-in-left" data-aos-duration="1500">
+                <div class="dialogue-wrapper-left" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
                     <div class="dialogue-text-left">от 500₽</div>
                 </div>
-                <div class="dialogue-wrapper-center">
+                <div class="dialogue-wrapper-center" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
                     <div class="dialogue-text-center">1.5 T</div>
                 </div>
-                <div class="dialogue-wrapper-right">
+                <div class="dialogue-wrapper-right" data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000">
                     <div class="dialogue-text-right">20 лет стажа</div>
                 </div>
             </div>
@@ -77,7 +78,7 @@
 
     <section id="service-panel" class="services-panel text-center">
         <span class="services-header">Наши услуги</span>
-        <div class="splide">
+        <div class="splide" data-aos="fade-up">
             <div class="splide__arrows">
                 <span class="splide__arrow splide__arrow--prev"></span>
                 <span class="splide__arrow splide__arrow--next"></span>
@@ -105,12 +106,37 @@
                     </li>
                     <li class="splide__slide">
                         <div class="service-card">
-
+                            <div class="service-card-distance">
+                                Межгород
+                            </div>
+                            <div class="service-card-type">
+                                Грузоперевоз
+                            </div>
+                            <div class="service-card-text">
+                                Доставка груза массой
+                                до 1.5 тонны от города Кирова
+                                до другого города
+                            </div>
+                            <div class="service-card-cost">
+                                500₽ + 22₽ за КМ
+                            </div>
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="service-card">
-
+                            <div class="service-card-distance">
+                                Город
+                            </div>
+                            <div class="service-card-type">
+                                Переезд
+                            </div>
+                            <div class="service-card-text">
+                                Перевоз мебели и вещей
+                                между адресами
+                            </div>
+                            <div class="service-card-cost">
+                                800₽ за ЧАС
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -121,5 +147,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
