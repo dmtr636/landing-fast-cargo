@@ -3,6 +3,7 @@
     border-radius: 20px;
     padding-top: 32px;
     padding-bottom: 32px;
+    position: relative;
 }
 .services-header {
     font-family: 'Montserrat', serif;
@@ -11,6 +12,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #FFFFFF;
+    position: relative;
 }
 .service-card {
     width: 299px;
@@ -25,6 +27,7 @@
 .splide {
     max-width: 1012px;
     margin: 30px auto;
+    z-index: 2;
 }
 .splide__arrow--prev {
     background: url("../images/back-button.png") !important;
@@ -42,18 +45,13 @@
     right: 0%;
     top: 6.96%;
     bottom: 81.3%;
-
     font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-
-    /* Light-Blue */
-
     color: #3E497A;
-
     opacity: 0.7;
 }
 .service-card-type {
@@ -62,22 +60,18 @@
     right: 0%;
     top: 17.39%;
     bottom: 70.87%;
-
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-
-    /* Dark-blue */
-
     color: #21325E;
 }
 .service-card-text {
     position: absolute;
     top: 39.57%;
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -89,11 +83,40 @@
 .service-card-cost {
     position: absolute;
     bottom: 5.22%;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+}
+.order-button.light {
+    background: #FFFFFF;
+}
+.order-button-text.dark {
+    background: linear-gradient(180deg, #3E497A 0%, #5563A2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.services-button-container {
+    column-gap: 16px;
+}
+.suggest-button {
+    width: 286px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.1));
+    text-decoration: none;
+}
+.boxes {
+    position: absolute;
+    width: 662px;
+    height: 460px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
 }

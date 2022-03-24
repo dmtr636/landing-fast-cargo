@@ -1,0 +1,33 @@
+.guarantees-panel {
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+.guarantee-card {
+    width: 313px;
+    height: 79px;
+    text-align: left;
+}
+.guarantee-title {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #21325E;
+    margin-left: 13px;
+}
+.guarantee-text {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #21325E;
+    margin-left: 13px;
+}
+.guarantees-panel .container {
+    max-width: 792px;
+}
+.guarantees-panel .row {
+    row-gap: 65px;
+}
