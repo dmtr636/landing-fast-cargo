@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="top-panel" id="top-panel">
@@ -27,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Услуги</a>
+                            <a class="nav-link" href="#service-panel">Услуги</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Партнёрам</a>
@@ -74,14 +75,44 @@
         </div>
     </section>
 
-    <section class="services-panel text-center">
+    <section id="service-panel" class="services-panel text-center">
         <span class="services-header">Наши услуги</span>
         <div class="splide">
+            <div class="splide__arrows">
+                <span class="splide__arrow splide__arrow--prev"></span>
+                <span class="splide__arrow splide__arrow--next"></span>
+            </div>
+
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide">Slide 01</li>
-                    <li class="splide__slide">Slide 02</li>
-                    <li class="splide__slide">Slide 03</li>
+                    <li class="splide__slide">
+                        <div class="service-card">
+                            <div class="service-card-distance">
+                                Город
+                            </div>
+                            <div class="service-card-type">
+                                Грузовое такси
+                            </div>
+                            <div class="service-card-text">
+                                Доставка груза массой
+                                до 1.5 тонны по городу
+                                Киров
+                            </div>
+                            <div class="service-card-cost">
+                                500₽
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="service-card">
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="service-card">
+
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

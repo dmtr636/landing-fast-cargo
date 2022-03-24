@@ -7,13 +7,15 @@ document.addEventListener( 'DOMContentLoaded', function() {
         arrows: false,
         drag: false,
         breakpoints: {
-            800: {
-                perPage: 1,
-                gap: '.7rem',
-                height: '6rem',
+            1200: {
+                perPage: 2,
                 arrows: true
             },
-        },
+            700: {
+                perPage: 1,
+                arrows: true
+            }
+        }
     });
 
     splide.mount();
