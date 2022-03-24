@@ -1,0 +1,44 @@
+.logo-container {
+    width: 126px;
+    height: 38px;
+    text-decoration: none;
+}
+.logo-image {
+    width: 34px;
+    height: 36px;
+    margin-top: 2px;
+}
+.logo-text {
+    width: 82px;
+    height: 38px;
+    margin-left: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    color: #21325E;
+}
+.navbar-nav {
+    height: 20px;
+    margin-left: 48px;
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #21325E;
+    padding: 0 !important;
+    margin-right: 48px;
+}
+.top-panel {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 35px;
+}
+.navbar, .container-fluid, .nav-item {
+    padding: 0;
+}
