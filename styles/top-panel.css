@@ -1,6 +1,3 @@
-body {
-
-}
 .logo-container {
     width: 126px;
     height: 38px;
@@ -41,8 +38,6 @@ body {
     padding-top: 35px;
     padding-bottom: 27px;
     position: relative;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 .navbar {
     padding-left: 70px;
