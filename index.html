@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="top-panel">
-        <nav class="navbar navbar-expand-md">
+    <section class="top-panel" id="top-panel">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="logo-container d-flex" href="#">
+                <a class="logo-container d-flex" href="#top-panel">
                     <img src="images/Box.png" class="logo-image" alt="">
                     <div class="logo-text navbar-collapse collapse">
                         Быстрый<br/>грузовой
@@ -31,13 +31,32 @@
                             <a class="nav-link" href="#">Партнёрам</a>
                         </li>
                     </ul>
-                    <div class="d-flex">
-                        <div>Киров, Калужская обл.</div>
-                        <div>8 910 864 72 25</div>
+                    <div class="d-flex navbar-right-container">
+                        <a class="d-flex navbar-right-item" href="https://yandex.ru/maps/-/CCUBBMADlD" target="_blank" rel="noopener noreferrer">
+                            <img src="images/carbon_location-filled.png" alt="">
+                            <span class="nav-link">Киров, Калужская обл.</span>
+                        </a>
+                        <a class="d-flex navbar-right-item" href="tel:8-910-864-72-25">
+                            <img src="images/fluent_call-24-filled.png" alt="">
+                            <span class="nav-link">8 910 864 72 25</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </nav>
+        <div class="top-panel-right-bg"></div>
+        <div class="d-flex top-panel-content">
+            <div class="col">
+                <h1>Быстрые и безопасные грузоперевозки</h1>
+                <h2>Мы предоставляем услуги грузового такси, помогаем с переездами и решаем задачи транспортировки крупных грузов по Кировскому району Калужской области</h2>
+            </div>
+            <div class="col text-end gazel-container">
+                <img src="images/Gazel.png" class="gazel" alt="">
+                <div class="dialogue-wrapper yellow text-start">
+                    <div class="dialogue-text white">от 500₽</div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

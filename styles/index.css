@@ -23,6 +23,7 @@
 .navbar-nav {
     height: 20px;
     margin-left: 48px;
+    column-gap: 48px;
 }
 .nav-link {
     font-family: 'Montserrat', sans-serif;
@@ -32,13 +33,88 @@
     line-height: 20px;
     color: #21325E;
     padding: 0 !important;
-    margin-right: 48px;
 }
 .top-panel {
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top: 35px;
 }
-.navbar, .container-fluid, .nav-item {
+.navbar {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.container-fluid, .nav-item {
     padding: 0;
+}
+.navbar-right-container {
+    column-gap: 28px;
+}
+.navbar-right-item {
+    text-decoration: none;
+    column-gap: 7px;
+}
+.top-panel-right-bg {
+    position: fixed;
+    width: 532px;
+    height: 489px;
+    right: 0;
+    top: 0;
+    z-index: -1000;
+    background: linear-gradient(180deg, #F0C760 0%, #FBD64E 100%);
+    border-radius: 20px 20px 0 0;
+    transform: rotate(180deg);
+}
+.top-panel-content {
+    margin-top: 108px;
+    padding-left: 70px;
+}
+.top-panel-content div {
+    padding: 0;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    color: #21325E;
+    margin-top: 28px;
+    margin-bottom: 40px;
+    margin-right: -15px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #3E497A;
+    max-width: 601px;
+}
+.gazel {
+    width: 640px;
+    height: 394px;
+}
+.gazel-container {
+    margin-left: -38px;
+    margin-right: 88px;
+    position: relative;
+}
+.dialogue-wrapper {
+    background-image: url("../images/Union-1.png");
+    width: 138px;
+    height: 80px;
+    position: absolute;
+    top: 13px;
+    right: 464px;
+}
+.dialogue-text {
+    margin-left: 17px;
+    margin-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
