@@ -44,12 +44,19 @@
     padding-right: 70px;
     padding-top: 0;
     padding-bottom: 0;
+    height: 40px;
 }
 .container-fluid, .nav-item {
     padding: 0;
 }
 .navbar-right-container {
     column-gap: 28px;
+}
+
+@media screen and (max-width: 1199px) {
+    .navbar-right-container {
+        visibility: collapse;
+    }
 }
 .navbar-right-item {
     text-decoration: none;
@@ -58,17 +65,21 @@
 .top-panel-right-bg {
     position: absolute;
     width: 532px;
-    height: 489px;
+    height: 495px;
     right: 0;
-    top: 0;
-    z-index: -1000;
+    top: -183px;
+    z-index: -1;
     background: linear-gradient(180deg, #F0C760 0%, #FBD64E 100%);
     border-radius: 20px 20px 0 0;
     transform: rotate(180deg);
 }
 .top-panel-content {
-    margin-top: 108px;
     padding-left: 70px;
+    max-width: 100vw;
+    overflow: visible;
+}
+.left-col {
+    margin-top: 108px;
 }
 .top-panel-content div {
     padding: 0;
@@ -95,21 +106,34 @@ h2 {
     margin-bottom: 32px;
     margin-top: 0;
 }
+
 .gazel {
     width: 640px;
     height: 394px;
-}
-.gazel-container {
-    margin-left: -38px;
     margin-right: 88px;
+}
+
+.dialogues-container {
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.gazel-wrapper {
+    margin-left: -38px;
+}
+
+.right-col {
+    margin-top: 108px;
     position: relative;
 }
+
 .dialogue-wrapper-left {
     width: 138px;
     height: 80px;
     position: absolute;
     top: 13px;
-    right: 464px;
+    left: 0;
     background-image: url("../images/dialogue-bg-left.png");
 }
 .dialogue-wrapper-center {
@@ -117,7 +141,7 @@ h2 {
     height: 82px;
     position: absolute;
     top: -83px;
-    right: 240px;
+    right: 340px;
     background-image: url("../images/dialogue-bg-center.png");
 }
 .dialogue-wrapper-right {
@@ -125,7 +149,7 @@ h2 {
     height: 80px;
     position: absolute;
     top: -58px;
-    right: -17px;
+    right: 83px;
     background-image: url("../images/dialogue-bg-right.png");
 }
 
@@ -190,4 +214,16 @@ h2 {
     font-size: 24px;
     line-height: 29px;
     color: #3E497A;
+}
+
+@media screen and (max-width: 700px) {
+    .order-phone-number {
+        visibility: collapse;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .dialogue {
+        visibility: collapse;
+    }
 }

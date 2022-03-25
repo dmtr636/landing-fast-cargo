@@ -1,7 +1,6 @@
 document.addEventListener( 'DOMContentLoaded', function() {
     const splide = new Splide('.splide', {
         perPage: 3,
-        gap: '2rem',
         type: 'loop',
         pagination : false,
         arrows: false,
@@ -11,7 +10,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
                 perPage: 2,
                 arrows: true
             },
-            700: {
+            800: {
                 perPage: 1,
                 arrows: true
             }
