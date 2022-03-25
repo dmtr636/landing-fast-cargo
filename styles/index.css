@@ -3,3 +3,33 @@
     margin: 0 auto;
     overflow: hidden;
 }
+.modal-content {
+    opacity: 95%;
+    border-radius: 20px;
+}
+.modal-title {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #21325E;
+}
+.modal-body {
+    padding: 10px 67px 30px 67px;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.modal-body h6 {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #21325E;
+    margin: 0;
+}

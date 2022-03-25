@@ -1,4 +1,4 @@
-.partners-panel {
+.partners-section {
     background: linear-gradient(180deg, #F0C760 0%, #FBD64E 100%);
     border-radius: 20px 20px 0px 0px;
     padding-top: 32px;
@@ -35,7 +35,7 @@
     color: #3E497A;
     text-align: start;
 }
-.partners-panel .container {
+.partners-section .container {
     margin-top: 30px;
     max-width: 810px;
 }

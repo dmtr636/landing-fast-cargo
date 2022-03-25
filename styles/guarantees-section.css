@@ -1,4 +1,4 @@
-.guarantees-panel {
+.guarantees-section {
     padding-top: 57px;
     padding-bottom: 57px;
 }
@@ -25,9 +25,9 @@
     color: #21325E;
     margin-left: 13px;
 }
-.guarantees-panel .container {
+.guarantees-section .container {
     max-width: 792px;
 }
-.guarantees-panel .row {
+.guarantees-section .row {
     row-gap: 65px;
 }
