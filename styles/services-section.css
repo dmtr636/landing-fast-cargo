@@ -135,3 +135,58 @@
     z-index: 0;
     overflow: hidden;
 }
+
+/* x-small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+    .services-header {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .services-section {
+        padding: 16px 0;
+        overflow: hidden;
+    }
+    .splide {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    .suggest-button {
+        width: 183px;
+        height: 27px;
+    }
+    .services-button-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .service-card {
+        width: 208px;
+        height: 168px;
+        background-size: 100% 100%;
+        padding: 0 16px;
+    }
+    .service-card-type {
+        font-size: 15.5031px;
+        line-height: 19px;
+    }
+    .service-card-distance {
+        font-size: 11.6273px;
+        line-height: 14px;
+    }
+    .service-card-text {
+        font-size: 11.6273px;
+        line-height: 14px;
+        width: 140px;
+    }
+    .service-card-cost {
+        font-size: 15.5031px;
+        line-height: 19px;
+        bottom: 9%;
+    }
+    .boxes-wpapper {
+        width: 365px;
+        height: 352px;
+        left: -50px;
+        bottom: -125px;
+    }
+}
