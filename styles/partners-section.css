@@ -162,7 +162,7 @@
         margin-bottom: 6px;
     }
     .offer-terms-button, .offer_terms_text {
-        display: initial;
+        display: block;
     }
 
     .nav-link {
