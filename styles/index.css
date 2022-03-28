@@ -33,6 +33,9 @@
     color: #21325E;
     margin: 0;
 }
+footer {
+    background: #FFFFFF !important;
+}
 
 /* x-small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
