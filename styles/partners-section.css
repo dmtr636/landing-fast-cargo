@@ -54,7 +54,7 @@
 }
 .partners-section .container {
     margin-top: 30px;
-    max-width: 810px;
+    max-width: 820px;
 }
 .partners-card-text {
     font-family: 'Montserrat', serif;
@@ -71,6 +71,42 @@
     margin-bottom: 10px;
     width: 65px;
     height: 55px;
+}
+.partners-card-bottom-text p {
+    margin-bottom: 0;
+}
+.offer_terms_text {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3E497A;
+
+    margin-top: 16px;
+    display: none !important;
+}
+.offer-terms-button {
+    background: #FFFFFF;
+    border-radius: 2.81818px;
+    filter: drop-shadow(0px 2.25455px 2.81818px rgba(0, 0, 0, 0.1));
+    width: 90px;
+    height: 24px;
+    text-decoration: none;
+    margin-top: 12px;
+    display: none !important;
+}
+.offer-terms-button-text {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.1455px;
+    line-height: 12px;
+    background: linear-gradient(180deg, #3E497A 0%, #5563A2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 /* x-small devices (portrait phones, less than 576px) */
@@ -91,5 +127,50 @@
         bottom: 0;
         right: 0;
         z-index: -1;
+    }
+    .partners-section {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .partners-section .container {
+        margin-top: 16px;
+    }
+    .partners-section .container .row {
+        row-gap: 8px;
+        --bs-gutter-y: 0;
+    }
+    .partners-card-with-icon img {
+        width: 32px;
+        height: 24px;
+    }
+    .partners-card-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .partners-card-bottom-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .partners-card-with-icon {
+        max-width: 245px;
+    }
+    .partners-card-bottom {
+        max-width: 245px;
+        margin-top: 8px;
+    }
+    .partners-card-bottom p {
+        margin-bottom: 6px;
+    }
+    .offer-terms-button, .offer_terms_text {
+        display: initial;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .navbar-nav {
+        align-items: center;
+        height: initial;
     }
 }
