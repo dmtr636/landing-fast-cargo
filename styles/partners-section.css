@@ -161,8 +161,11 @@
     .partners-card-bottom p {
         margin-bottom: 6px;
     }
-    .offer-terms-button, .offer_terms_text {
-        display: block;
+    .offer-terms-button {
+        display: flex !important;
+    }
+    .offer_terms_text {
+        display: initial !important;
     }
 
     .nav-link {
