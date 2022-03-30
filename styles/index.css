@@ -37,6 +37,13 @@ footer {
     background: #FFFFFF !important;
 }
 
+@media screen and (min-width: 576px) {
+    .modal-header {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+}
+
 /* x-small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
     footer {
