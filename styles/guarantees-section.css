@@ -1,7 +1,12 @@
+.guarantees-section__wrapper {
+    background: linear-gradient(180deg, #F8F6F7 0%, rgba(255, 255, 255, 0.7) 100%);
+}
+
 .guarantees-section {
+    max-width: 1440px;
+    margin: 0 auto;
     padding-top: 73px;
     padding-bottom: 57px;
-    background: linear-gradient(180deg, #F8F6F7 0%, rgba(255, 255, 255, 0.7) 100%);
     margin-top: -16px;
 }
 .guarantee-card {

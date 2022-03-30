@@ -1,3 +1,7 @@
+.top-section__wrapper {
+    background: linear-gradient(180deg, #F8F6F7 0%, rgba(255, 255, 255, 0.7) 100%);
+    overflow: hidden;
+}
 .logo-container {
     height: 38px;
     text-decoration: none;
@@ -34,10 +38,11 @@
     padding: 0 !important;
 }
 .top-section {
+    max-width: 1440px;
+    margin: 0 auto;
     padding-top: 35px;
     padding-bottom: 27px;
     position: relative;
-    background: linear-gradient(180deg, #F8F6F7 0%, rgba(255, 255, 255, 0.7) 100%);
 }
 .navbar {
     padding: 0 70px;

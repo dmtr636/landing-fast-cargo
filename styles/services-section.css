@@ -1,4 +1,9 @@
+.services-section__wrapper {
+    background: linear-gradient(0deg, #F8F6F7 0%, rgba(255, 255, 255, 0.7) 100%);
+}
 .services-section {
+    max-width: 1440px;
+    margin: 0 auto;
     background: linear-gradient(180deg, #F0C760 0%, #FBD64E 100%);
     border-radius: 20px;
     padding-top: 32px;
