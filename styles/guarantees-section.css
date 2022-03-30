@@ -39,25 +39,25 @@
 /* x-small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
     .guarantee-title {
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 18px;
+        line-height: 22px;
     }
     .guarantee-text {
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 16px;
+        line-height: 19px;
     }
     .guarantee-card img {
-        width: 41px;
-        height: 50px;
+        width: 61px;
+        height: 73px;
     }
     .guarantee-card {
-        width: 208px;
-        height: 50px;
+        width: 304px;
+        height: 73px;
     }
     .guarantees-section .row {
-        row-gap: 17px;
+        row-gap: 16px;
     }
     .guarantees-section {
-        padding: 32px 0 16px 0;
+        padding: 48px 0 32px 0;
     }
 }

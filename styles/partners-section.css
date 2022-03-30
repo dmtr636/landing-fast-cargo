@@ -140,34 +140,36 @@
         --bs-gutter-y: 0;
     }
     .partners-card-with-icon img {
-        width: 32px;
-        height: 24px;
+        width: 40px;
+        height: 29px;
     }
     .partners-card-text {
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 16px;
+        line-height: 20px;
     }
     .partners-card-bottom-text {
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 19px;
     }
     .partners-card-with-icon {
-        max-width: 245px;
+        max-width: 304px;
     }
     .partners-card-bottom {
-        max-width: 245px;
+        max-width: 304px;
         margin-top: 8px;
+        padding: 10px 22px 4px;
     }
     .partners-card-bottom p {
         margin-bottom: 6px;
     }
     .offer-terms-button {
-        display: flex !important;
+        display: none !important;
     }
     .offer_terms_text {
         display: initial !important;
+        font-size: 16px;
+        line-height: 20px;
     }
-
     .nav-link {
         font-size: 12px;
         line-height: 15px;
