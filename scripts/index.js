@@ -4,14 +4,16 @@ document.addEventListener( 'DOMContentLoaded', function() {
         type: 'loop',
         pagination : false,
         arrows: false,
-        drag: true,
+        drag: false,
         breakpoints: {
             1200: {
                 perPage: 2,
-                arrows: true
+                arrows: true,
+                drag: true,
             },
             800: {
                 perPage: 1,
+                drag: true,
                 arrows: true
             }
         }
