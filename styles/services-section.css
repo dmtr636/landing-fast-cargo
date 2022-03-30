@@ -136,11 +136,15 @@
     overflow: hidden;
 }
 
+.splide__arrow {
+    opacity: 1;
+}
+
 /* x-small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
     .services-header {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 29px;
     }
     .services-section {
         padding: 16px 0;
@@ -158,35 +162,42 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        display: none !important;
     }
     .service-card {
-        width: 208px;
-        height: 168px;
+        width: 234px;
+        height: 187px;
         background-size: 100% 100%;
         padding: 0 16px;
     }
     .service-card-type {
-        font-size: 15.5031px;
-        line-height: 19px;
+        font-size: 16px;
+        line-height: 20px;
     }
     .service-card-distance {
-        font-size: 11.6273px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 20px;
     }
     .service-card-text {
-        font-size: 11.6273px;
-        line-height: 14px;
-        width: 140px;
+        font-size: 16px;
+        line-height: 19px;
+        width: 195px;
+        top: 38%;
     }
     .service-card-cost {
-        font-size: 15.5031px;
-        line-height: 19px;
+        font-size: 18px;
+        line-height: 22px;
         bottom: 9%;
     }
     .boxes-wpapper {
-        width: 365px;
-        height: 352px;
-        left: -50px;
-        bottom: -125px;
+        width: 310px;
+        height: 299px;
+        left: -75px;
+        bottom: -60px;
+    }
+    .boxes {
+        width: 310px;
+        height: 299px;
+        object-fit: contain;
     }
 }

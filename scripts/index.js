@@ -4,7 +4,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
         type: 'loop',
         pagination : false,
         arrows: false,
-        drag: false,
+        drag: true,
         breakpoints: {
             1200: {
                 perPage: 2,
