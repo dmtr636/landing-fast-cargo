@@ -78,6 +78,12 @@ footer {
 
 /* x-small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
+    body {
+        background: #E5E5E5;
+    }
+    .layout {
+        background: linear-gradient(180deg, #F8F6F7 0%, rgba(255, 255, 255, 0.7) 100%);
+    }
     .call-button {
         display: flex;
     }
