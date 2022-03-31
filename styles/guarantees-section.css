@@ -13,9 +13,9 @@
     width: 313px;
     height: 79px;
     text-align: left;
-    background: linear-gradient(270deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%) right;
     border-radius: 0px 3.22738px 3.22738px 0px;
-
+    background-size: 282px 79px;
+    background: linear-gradient(270deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%) no-repeat right;
 }
 .guarantee-title {
     font-family: 'Montserrat', serif;
