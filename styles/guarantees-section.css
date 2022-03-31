@@ -48,7 +48,7 @@
         background: linear-gradient(270deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%) right;
     }
     .guarantee-card.flex-row.flex-row-reverse {
-        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 50%, #FFFFFF 100%) left;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%) left;
     }
     .guarantees-section__wrapper {
         background: none;
